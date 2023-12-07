@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# User Info App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that retrieves user information from an external API, allows searching users by name, viewing past search history, and sorting users by name.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User List**: Display a list of users retrieved from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+- **Search by Name**: Search users by their name and view the search results.
+- **Search History**: View and clear past search terms.
+- **Sort by Name**: Toggle sorting users by name.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js installed on your machine.
+- Package Manager (npm or yarn).
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/your-username/user-info-app.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+    npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Search by Name
 
-## Learn More
+1. Enter a name in the search bar or click the search button.
+2. View the search results.
+3. Click the listed user to view their details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Search History
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Click the search history button to view past search terms.
+2. Click the clear button to clear the search history.
+3. Click the listed search term to search for it.
 
-### Code Splitting
+### Sort by Name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Click the sort button to toggle sorting users by name.
+2. Click the sort button again to toggle sorting users by name in reverse order.
+3. Click the sort button again to toggle sorting users by name.
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [React](https://reactjs.org/)
+- [Scss](https://sass-lang.com/)
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
-### Advanced Configuration
+## Tanks for reading
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contact me:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[LinkedIn](https://www.linkedin.com/in/rajkumar-khatua-57154a20b/)
+[E-mail](mailto:rajkhatua2020@gmail.com)

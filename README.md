@@ -39,6 +39,10 @@ A simple React application that retrieves user information from an external API,
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Live Demo
+
+[User Info App](https://user-info-seven.vercel.app/)
+
 ## Usage
 
 ### Search by Name
